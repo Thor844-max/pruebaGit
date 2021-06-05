@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="iso-8859-1">
+<title>Galeria</title>
+<script src="/Jquery/jquery-3.6.0.min.js"></script>
+<script>
+
+  // aqui activamos el jquery y le decimos que espere a que se carge el documento antes de actuar
+  $(document).ready (function(){
+
+    $("#carrete img").hide();
+
+  });
+
+  //dentro del parametro anterior que es una funcion anonima auto llamada se escribe el codigo de js
+</script>
+</head>
+<body>
+  <div id="carrete">  
+      <img src="/imgs/1.jpg" alt="Flores de corte" width="250" height="175">
+      &nbsp;
+      <img src="/imgs/2.jpg" alt="Mirabilis Jalapa" width="250" height="175">
+      &nbsp;
+      <img src="/imgs/3.jpg" alt="Strelitzia" width="250" height="175">
+      &nbsp;
+      <img src="/imgs/4.jpg" alt="Flor del opio" width="250" height="175">
+  </div>
+  <!--<script>
+    var imagenes = document.querySelectorAll("#carrete img");
+    for (var i = 0; i < imagenes.length; i++) {
+
+      imagenes[i].style.visibility = "hidden";
+
+    }
+
+  </script>-->
+</body>
+</html>
